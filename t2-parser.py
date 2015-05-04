@@ -66,7 +66,7 @@ with open(pdfpath, "r") as pdf_file:
             #receive the LTPage object for the page.
             layout = device.get_result()
             print "page {}".format(i+1)
-            if i == 2: break
+#            if i == 2: break
             #choose correct top margin for page 1.
             if i == 0:
                 top_h = top_h1
