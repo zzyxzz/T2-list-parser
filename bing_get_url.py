@@ -8,6 +8,10 @@ API_KEY = "Your Account Key"
 def bing_api(query, source_type = "Web", top = 10, format = 'json'):
 	"""Returns the decoded json response content
 
+	:param query: query for search
+	:param source_type: type for seacrh result
+	:param top: number of search result
+	:param format: format of search result
 	"""
 	# set search url
 	query = '%27' + urllib.quote(query) + '%27'
